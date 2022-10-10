@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'inter', sans-serif;
+  color: aliceblue;
+  line-height: 1;
+}
+
+/* .the__body {
+  display: flex;
+  /* justify-content: center;
+  flex-direction: column;
+  /* margin-top: 25%; */
+/* margin: 25% 40%;
+  padding: 100px 350px;
+  background-color: rgb(183, 206, 206); */
+/* border: 100px;
+  border-radius: 1rem;
+}  */
+
+.the__body {
+  width: 800px;
+  background-color: rgb(60, 87, 87);
+  margin: 350px auto;
+  border-radius: 1rem;
+}
+
+.input-data,
+header,
+.btn__convert,
+.message,
+.current__rate {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 8rem;
+  width: 15%;
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.title {
+  padding: 5rem 2.5rem;
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.btn__convert {
+  margin: 2.5rem;
+}
+
+.message,
+.current__rate {
+  margin-bottom: 2.5rem;
+}
+
+.dollar__value {
+  width: 400px;
+  padding: 1rem;
+  border: none;
+  margin-left: 1.5rem;
+}
+
+.label--text {
+  margin-top: 1rem;
+}
