@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(125, 109, 139);
+}
+
+.timeout {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  margin-top: 25rem;
+  font-size: 120px;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 700px) {
+  .timeout {
+    display: flex;
+    justify-content: center;
+    margin-top: 25rem;
+    transform: scale(0.5);
+  }
+}
