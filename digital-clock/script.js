@@ -25,4 +25,4 @@ const formattedWeek = new Intl.DateTimeFormat('en-GB', {
   weekday: 'long',
 }).format(globalDate);
 
-theDate.textContent = `${formattedWeek}, ${formattedMonth} ${globalDate.getDay()}, ${globalDate.getFullYear()}`;
+theDate.textContent = `${formattedWeek}, ${formattedMonth} ${globalDate.getDate()}, ${globalDate.getFullYear()}`;
